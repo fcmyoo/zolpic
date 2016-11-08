@@ -12,3 +12,4 @@ class ZolpicItem(scrapy.Item):
     # name = scrapy.Field()
     img = scrapy.Field()
     img_name = scrapy.Field()
+    title=scrapy.Field()
